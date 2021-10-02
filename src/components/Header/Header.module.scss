@@ -1,0 +1,68 @@
+.header {
+  height: 904px;
+  width: 1800px;
+
+  nav {
+    margin-left: 1000px;
+    padding-top: 80px;
+    display: flex;
+    gap: 60px;
+
+    button {
+      cursor: pointer;
+      font-weight: 300;
+      background-color: transparent;
+      border: none;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 1.94px;
+      color: #ffffff;
+    }
+  }
+
+  .headerInfo {
+    margin-top: 283px;
+    color: #ffffff;
+    text-align: center;
+
+    h1 {
+      font-weight: 500;
+      font-size: 72px;
+      line-height: 107px;
+      letter-spacing: 4.608px;
+      margin: 0;
+    }
+
+    p {
+      font-family: "Open Sans";
+      font-size: 20px;
+      line-height: 27px;
+      letter-spacing: 1.28px;
+      opacity: 0.8;
+      mix-blend-mode: normal;
+    }
+  }
+
+  .paginator {
+    text-align: center;
+    margin-top: 295px;
+
+    button {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 1.152px;
+      color: rgba(255, 255, 255, 0.437245);
+    }
+
+    .active {
+      font-size: 36px;
+      line-height: 53px;
+      letter-spacing: 2.304px;
+      color: #ffffff;
+    }
+  }
+}

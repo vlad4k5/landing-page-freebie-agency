@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/landing-page-freebie-agency/static/css/main.629b3149.chunk.css",
+    "main.js": "/landing-page-freebie-agency/static/js/main.91997852.chunk.js",
+    "main.js.map": "/landing-page-freebie-agency/static/js/main.91997852.chunk.js.map",
+    "runtime-main.js": "/landing-page-freebie-agency/static/js/runtime-main.614ba8c2.js",
+    "runtime-main.js.map": "/landing-page-freebie-agency/static/js/runtime-main.614ba8c2.js.map",
+    "static/js/2.5fd51c76.chunk.js": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js",
+    "static/js/2.5fd51c76.chunk.js.map": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js.map",
+    "index.html": "/landing-page-freebie-agency/index.html",
+    "static/css/main.629b3149.chunk.css.map": "/landing-page-freebie-agency/static/css/main.629b3149.chunk.css.map",
+    "static/js/2.5fd51c76.chunk.js.LICENSE.txt": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js.LICENSE.txt",
+    "static/media/camera.cab4932c.jpg": "/landing-page-freebie-agency/static/media/camera.cab4932c.jpg",
+    "static/media/case.80141acd.svg": "/landing-page-freebie-agency/static/media/case.80141acd.svg",
+    "static/media/cat.7b6ec4f8.jpg": "/landing-page-freebie-agency/static/media/cat.7b6ec4f8.jpg",
+    "static/media/computer.e0dfade8.jpg": "/landing-page-freebie-agency/static/media/computer.e0dfade8.jpg",
+    "static/media/facebookLogo.76af5a37.svg": "/landing-page-freebie-agency/static/media/facebookLogo.76af5a37.svg",
+    "static/media/header.4ebabf0e.jpg": "/landing-page-freebie-agency/static/media/header.4ebabf0e.jpg",
+    "static/media/img99.d5462503.svg": "/landing-page-freebie-agency/static/media/img99.d5462503.svg",
+    "static/media/laptop.7123ced0.jpg": "/landing-page-freebie-agency/static/media/laptop.7123ced0.jpg",
+    "static/media/leftArrow.00975949.svg": "/landing-page-freebie-agency/static/media/leftArrow.00975949.svg",
+    "static/media/letter.27dbbda4.svg": "/landing-page-freebie-agency/static/media/letter.27dbbda4.svg",
+    "static/media/pencil.ae65f931.svg": "/landing-page-freebie-agency/static/media/pencil.ae65f931.svg",
+    "static/media/pinterestLogo.9000548c.svg": "/landing-page-freebie-agency/static/media/pinterestLogo.9000548c.svg",
+    "static/media/rightArrow.57166804.svg": "/landing-page-freebie-agency/static/media/rightArrow.57166804.svg",
+    "static/media/star.5334f6e0.svg": "/landing-page-freebie-agency/static/media/star.5334f6e0.svg",
+    "static/media/theTeam1.064d9c14.jpg": "/landing-page-freebie-agency/static/media/theTeam1.064d9c14.jpg",
+    "static/media/theTeam2.d5c064a8.jpg": "/landing-page-freebie-agency/static/media/theTeam2.d5c064a8.jpg",
+    "static/media/theTeam3.06f00a24.jpg": "/landing-page-freebie-agency/static/media/theTeam3.06f00a24.jpg",
+    "static/media/twitterLogo.884f9af1.svg": "/landing-page-freebie-agency/static/media/twitterLogo.884f9af1.svg",
+    "static/media/weSquad1.a67f37f6.jpg": "/landing-page-freebie-agency/static/media/weSquad1.a67f37f6.jpg",
+    "static/media/weSquad2.e245da7a.jpg": "/landing-page-freebie-agency/static/media/weSquad2.e245da7a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.614ba8c2.js",
+    "static/js/2.5fd51c76.chunk.js",
+    "static/css/main.629b3149.chunk.css",
+    "static/js/main.91997852.chunk.js"
+  ]
+}

@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 170px;
   padding: 164px 360px 0 360px;
+  margin-bottom: 120px;
 
   .workBlock {
     position: relative;
@@ -136,7 +137,7 @@
 
     .viewMoreButton {
       position: absolute;
-      bottom: 0px;
+      bottom: 50px;
       right: 0px;
       cursor: pointer;
       border: none;

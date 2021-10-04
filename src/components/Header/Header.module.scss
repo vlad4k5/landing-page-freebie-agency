@@ -1,11 +1,12 @@
 .header {
   height: 904px;
-  width: 1800px;
+  max-width: 1800px;
 
   nav {
-    margin-left: 1000px;
+    margin-right: 312px;
     padding-top: 80px;
     display: flex;
+    justify-content: flex-end;
     gap: 60px;
 
     button {

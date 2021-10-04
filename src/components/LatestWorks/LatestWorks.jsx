@@ -6,7 +6,8 @@ import computer from "../../assets/images/computer.jpg"
 
 const LatestWorks = () => {
   return <div className={s.latestWorks}>
-
+    
+    <div className={s.container}>
     <div className={s.leftSide}>
       <h3>Latest Works</h3>
       <nav>
@@ -40,7 +41,7 @@ const LatestWorks = () => {
 
     <div className={s.rightSide}>
 
-    <div className={`${s.workBlock} ${s.cameraBlock}`}>
+      <div className={`${s.workBlock} ${s.cameraBlock}`}>
         <img src={camera} alt="Camera"/>
         <p>100 YEARS PHOTOGRAPHY</p>
         <div className={s.infoBlock}>
@@ -62,6 +63,7 @@ const LatestWorks = () => {
 
       <button className={s.viewMoreButton}>view more</button>
 
+    </div>
     </div>
 
   </div>

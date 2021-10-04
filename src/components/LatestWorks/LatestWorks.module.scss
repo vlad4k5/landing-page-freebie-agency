@@ -1,8 +1,14 @@
 .latestWorks {
+  max-width: 1800px;
+}
+
+.container {
   display: grid;
+  width: 1185px;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   column-gap: 170px;
-  padding: 164px 360px 0 360px;
+  padding: 164px 0 0 0;
   margin-bottom: 120px;
 
   .workBlock {

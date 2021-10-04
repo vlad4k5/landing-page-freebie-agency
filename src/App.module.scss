@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); //font-family: 'Open Sans', sans-serif;
 
 .app {
-  width: 1800px;
+  max-width: 1800px;
+  min-width: 1000px;
+  // width: 100vw;
   margin: 0 auto;
 }
 

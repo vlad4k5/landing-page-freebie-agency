@@ -1,8 +1,11 @@
 .ourServices {
-  padding: 130px 315px;
+  padding: 130px 0;
+  max-width: 1800px;
   background: #fbfbfb;
 
   h2 {
+    max-width: 1173px;
+    margin: 0 auto;
     font-weight: bold;
     font-size: 48px;
     line-height: 71px;
@@ -12,6 +15,8 @@
   }
 
   .container {
+    max-width: 1173px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 28px;

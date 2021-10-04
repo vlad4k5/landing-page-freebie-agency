@@ -1,13 +1,11 @@
-.latestWorks {
-  max-width: 1800px;
-}
+@import "../../assets/scss/mixins";
 
 .container {
   display: grid;
   width: 1185px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
-  column-gap: 170px;
+  column-gap: 175px;
   padding: 164px 0 0 0;
   margin-bottom: 120px;
 
@@ -49,15 +47,11 @@
       }
 
       button {
-        padding: 0;
-        cursor: pointer;
-        border: none;
-        background-color: transparent;
+        @include transparentButton(#252525);
         font-family: "Open Sans";
         font-size: 13px;
         line-height: 18px;
         letter-spacing: 0.832px;
-        color: #252525;
       }
     }
   }
@@ -66,6 +60,7 @@
     padding-top: 54px;
 
     h3 {
+      @include shortUnderline;
       margin: 0;
       font-weight: bold;
       font-size: 48px;
@@ -77,18 +72,15 @@
     nav {
       margin-top: 50px;
       display: flex;
-      gap: 41px;
+      gap: 40px;
 
       button {
-        cursor: pointer;
-        padding: 0;
-        background-color: transparent;
-        border: none;
+        white-space: nowrap;
+        @include transparentButton(#252525);
         font-family: "Open Sans";
         font-size: 13px;
         line-height: 18px;
         letter-spacing: 0.832px;
-        color: #252525;
         opacity: 0.3;
       }
 
@@ -142,19 +134,16 @@
     }
 
     .viewMoreButton {
+      @include transparentButton(#252525);
       position: absolute;
       bottom: 50px;
       right: 0px;
-      cursor: pointer;
-      border: none;
-      background-color: transparent;
       font-size: 13px;
       line-height: 19px;
       display: flex;
       align-items: flex-end;
       text-align: right;
       letter-spacing: 2px;
-      color: #252525;
     }
   }
 }

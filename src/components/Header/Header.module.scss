@@ -1,9 +1,8 @@
 .header {
   height: 904px;
-  max-width: 1800px;
 
   nav {
-    margin-right: 312px;
+    margin-right: 17.3%;
     padding-top: 80px;
     display: flex;
     justify-content: flex-end;
@@ -18,6 +17,32 @@
       line-height: 21px;
       letter-spacing: 1.94px;
       color: #ffffff;
+
+      &::after {
+        margin-right: auto;
+        position: relative;
+        bottom: 0;
+        left: 65%;
+        background: #4caf50;
+        width: 35%;
+
+        content: "";
+        display: block;
+        height: 2px;
+        transition: 0.3s;
+      }
+
+      &:hover::after {
+        left: -20%;
+        width: 130%;
+      }
+    }
+
+    .active {
+      &::after {
+        left: -20%;
+        width: 130%;
+      }
     }
   }
 

@@ -1,6 +1,4 @@
 footer {
-  max-width: 1800px;
-
   .topSide {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,11 +40,23 @@ footer {
     .leftBlock {
       background: #fbfbfb;
       color: #373737;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: darken(#fbfbfb, 10%);
+      }
     }
 
     .rightBlock {
       background: #70bd59;
       color: #fff;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: darken(#70bd59, 10%);
+      }
     }
   }
 

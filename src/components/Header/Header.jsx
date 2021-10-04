@@ -5,7 +5,7 @@ const Header = () => {
   return <header className={s.header} style={{backgroundImage: `url(${backgroundHeaderImg})`}}>
 
     <nav>
-      <button>WORKS</button>
+      <button className={s.active}>WORKS</button>
       <button>ABOUT</button>
       <button>SERVICES</button>
       <button>BLOG</button>

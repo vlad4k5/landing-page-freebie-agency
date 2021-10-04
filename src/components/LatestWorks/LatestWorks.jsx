@@ -5,7 +5,7 @@ import camera from "../../assets/images/camera.jpg"
 import computer from "../../assets/images/computer.jpg"
 
 const LatestWorks = () => {
-  return <div className={s.latestWorks}>
+  return <div>
     
     <div className={s.container}>
     <div className={s.leftSide}>

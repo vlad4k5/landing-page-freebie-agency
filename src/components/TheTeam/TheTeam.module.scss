@@ -1,9 +1,11 @@
+@import "../../assets/scss/mixins";
+
 .topSide {
   padding: 130px 0 167px 0;
-  max-width: 1800px;
   background: #fbfbfb;
 
   h3 {
+    @include shortUnderline;
     max-width: 1173px;
     margin: 0 auto;
     margin-bottom: 75px;
@@ -79,7 +81,6 @@
 
 .bottomSide {
   margin: 115px auto;
-  max-width: 1185px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,19 +139,20 @@
   }
 
   .arrowButton {
-    position: absolute;
+    position: relative;
     padding: 5px 15px;
     cursor: pointer;
     border: none;
     background-color: transparent;
-    bottom: 7px;
   }
 
   .leftArrow {
-    left: 359px;
+    right: 500px;
+    bottom: 40px;
   }
 
   .rightArrow {
-    right: 359px;
+    left: 500px;
+    bottom: 75px;
   }
 }

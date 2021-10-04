@@ -1,0 +1,39 @@
+@mixin shortUnderline($top: 0) {
+  &::after {
+    position: relative;
+    top: $top;
+    left: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 35px;
+    background: #252525;
+  }
+}
+
+@mixin transparentButton($color) {
+  color: $color;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: -10%;
+    background-color: $color;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

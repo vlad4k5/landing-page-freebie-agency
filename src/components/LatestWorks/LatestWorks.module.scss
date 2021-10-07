@@ -8,142 +8,142 @@
   column-gap: 175px;
   padding: 164px 0 0 0;
   margin-bottom: 120px;
+}
 
-  .workBlock {
-    position: relative;
+.workBlock {
+  position: relative;
 
-    & > p {
-      width: 240px;
-      position: absolute;
-      top: 220px;
-      left: 370px;
+  & > p {
+    width: 240px;
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 3.072px;
+    color: #252525;
+  }
+
+  .infoBlock {
+    padding-left: 25%;
+
+    h4 {
+      font-family: "Open Sans";
       font-weight: 300;
-      font-size: 48px;
-      line-height: 71px;
-      letter-spacing: 3.072px;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1.152px;
       color: #252525;
+    }
+
+    p {
+      width: 300px;
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.832px;
+      color: #c2c2c2;
+    }
+
+    button {
+      @include transparentButton(#252525);
+      font-family: "Open Sans";
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.832px;
+    }
+  }
+}
+
+.leftSide {
+  padding-top: 54px;
+
+  h3 {
+    @include shortUnderline;
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 3.072px;
+    color: #252525;
+  }
+
+  nav {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+
+    button {
+      white-space: nowrap;
+      @include transparentButton(#252525);
+      font-family: "Open Sans";
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.832px;
+      opacity: 0.3;
+    }
+
+    .active {
+      font-weight: 600;
+      opacity: 1;
+    }
+  }
+
+  .catBlock {
+    margin-top: 158px;
+  }
+
+  .laptopBlock {
+    margin-top: 137px;
+  }
+}
+
+.rightSide {
+  width: 440px;
+  position: relative;
+
+  .cameraBlock {
+    & > p {
+      width: 300px;
+      top: 220px;
+      left: -130px;
     }
 
     .infoBlock {
-      padding-left: 25%;
-
-      h4 {
-        font-family: "Open Sans";
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 1.152px;
-        color: #252525;
-      }
-
-      p {
-        width: 300px;
-        font-family: "Open Sans";
-        font-weight: 300;
-        font-size: 13px;
-        line-height: 23px;
-        letter-spacing: 0.832px;
-        color: #c2c2c2;
-      }
-
-      button {
-        @include transparentButton(#252525);
-        font-family: "Open Sans";
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 0.832px;
-      }
+      padding-left: 0;
+      padding-right: 32%;
+      text-align: end;
     }
   }
 
-  .leftSide {
-    padding-top: 54px;
+  .computerBlock {
+    margin-top: 123px;
 
-    h3 {
-      @include shortUnderline;
-      margin: 0;
-      font-weight: bold;
-      font-size: 48px;
-      line-height: 71px;
-      letter-spacing: 3.072px;
-      color: #252525;
+    & > p {
+      width: 410px;
+      top: 220px;
+      left: -130px;
     }
 
-    nav {
-      margin-top: 50px;
-      display: flex;
-      gap: 40px;
-
-      button {
-        white-space: nowrap;
-        @include transparentButton(#252525);
-        font-family: "Open Sans";
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 0.832px;
-        opacity: 0.3;
-      }
-
-      .active {
-        font-weight: 600;
-        opacity: 1;
-      }
-    }
-
-    .catBlock {
-      margin-top: 158px;
-    }
-
-    .laptopBlock {
-      margin-top: 137px;
+    .infoBlock {
+      padding-left: 0;
+      padding-right: 32%;
+      text-align: end;
     }
   }
 
-  .rightSide {
-    width: 440px;
-    position: relative;
-
-    .cameraBlock {
-      & > p {
-        width: 300px;
-        top: 220px;
-        left: -130px;
-      }
-
-      .infoBlock {
-        padding-left: 0;
-        padding-right: 32%;
-        text-align: end;
-      }
-    }
-
-    .computerBlock {
-      margin-top: 123px;
-
-      & > p {
-        width: 410px;
-        top: 220px;
-        left: -130px;
-      }
-
-      .infoBlock {
-        padding-left: 0;
-        padding-right: 32%;
-        text-align: end;
-      }
-    }
-
-    .viewMoreButton {
-      @include transparentButton(#252525);
-      position: absolute;
-      bottom: 50px;
-      right: 0px;
-      font-size: 13px;
-      line-height: 19px;
-      display: flex;
-      align-items: flex-end;
-      text-align: right;
-      letter-spacing: 2px;
-    }
+  .viewMoreButton {
+    @include transparentButton(#252525);
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    letter-spacing: 2px;
   }
 }

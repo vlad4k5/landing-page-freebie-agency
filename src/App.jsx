@@ -6,7 +6,6 @@ import OurServices from "./components/OurServices/OurServices";
 import TheTeam from "./components/TheTeam/TheTeam";
 import WeSquad from "./components/WeSquad/WeSquad";
 
-
 const App = () => {
   return <div className={s.app}>
     <Header />
@@ -17,5 +16,4 @@ const App = () => {
     <Footer />
   </div>
 }
-
 export default App;

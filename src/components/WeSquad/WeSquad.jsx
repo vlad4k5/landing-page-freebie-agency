@@ -25,5 +25,4 @@ const WeSquad = () => {
     
   </div>
 }
-
 export default WeSquad

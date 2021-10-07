@@ -15,65 +15,65 @@
     letter-spacing: 3.072px;
     color: #252525;
   }
+}
 
-  .teamMembers {
-    margin: 0 auto;
-    max-width: 1173px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.teamMembers {
+  margin: 0 auto;
+  max-width: 1173px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-    .teamMemberBlock {
-      width: 370px;
-      height: 398px;
+  .teamMemberBlock {
+    width: 370px;
+    height: 398px;
+    display: flex;
+    align-items: flex-end;
+
+    .basicInfo {
       display: flex;
-      align-items: flex-end;
+      justify-content: center;
+      align-items: center;
+      width: 370px;
+      height: 55px;
+      background-color: #ffffff7f;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 1.152px;
+      color: #252525;
+    }
 
-      .basicInfo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 370px;
-        height: 55px;
-        background-color: #ffffff7f;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 27px;
-        letter-spacing: 1.152px;
-        color: #252525;
+    .creativeDirectorInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 370px;
+      height: 155px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 1.152px;
+      color: #252525;
+      background-color: RGBA(255, 255, 255, 0.92);
+
+      .name {
+        padding-top: 20px;
       }
 
-      .creativeDirectorInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 370px;
-        height: 155px;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 27px;
-        letter-spacing: 1.152px;
-        color: #252525;
-        background-color: RGBA(255, 255, 255, 0.92);
+      .underline {
+        margin: 9px 0 6px 0;
+        width: 45px;
+        height: 2px;
+        background: #252525;
+      }
 
-        .name {
-          padding-top: 20px;
-        }
-
-        .underline {
-          margin: 9px 0 6px 0;
-          width: 45px;
-          height: 2px;
-          background: #252525;
-        }
-
-        p {
-          font-family: "Open Sans";
-          font-weight: normal;
-          font-size: 12px;
-          line-height: 25px;
-          letter-spacing: 1.008px;
-          color: #777777;
-        }
+      p {
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: 1.008px;
+        color: #777777;
       }
     }
   }

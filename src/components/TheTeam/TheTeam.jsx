@@ -56,7 +56,6 @@ const TheTeam = () => {
       <button className={`${s.arrowButton} ${s.rightArrow}`}><img src={rightArrow} alt="Right Arrow"/></button>
     </div>
     
-
   </div>
 }
  export default TheTeam

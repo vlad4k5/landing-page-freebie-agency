@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page-freebie-agency/static/css/main.914e969b.chunk.css",
+    "main.css": "/landing-page-freebie-agency/static/css/main.1aab950b.chunk.css",
     "main.js": "/landing-page-freebie-agency/static/js/main.643fcaab.chunk.js",
     "main.js.map": "/landing-page-freebie-agency/static/js/main.643fcaab.chunk.js.map",
     "runtime-main.js": "/landing-page-freebie-agency/static/js/runtime-main.614ba8c2.js",
@@ -8,7 +8,7 @@
     "static/js/2.5fd51c76.chunk.js": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js",
     "static/js/2.5fd51c76.chunk.js.map": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js.map",
     "index.html": "/landing-page-freebie-agency/index.html",
-    "static/css/main.914e969b.chunk.css.map": "/landing-page-freebie-agency/static/css/main.914e969b.chunk.css.map",
+    "static/css/main.1aab950b.chunk.css.map": "/landing-page-freebie-agency/static/css/main.1aab950b.chunk.css.map",
     "static/js/2.5fd51c76.chunk.js.LICENSE.txt": "/landing-page-freebie-agency/static/js/2.5fd51c76.chunk.js.LICENSE.txt",
     "static/media/camera.cab4932c.jpg": "/landing-page-freebie-agency/static/media/camera.cab4932c.jpg",
     "static/media/case.80141acd.svg": "/landing-page-freebie-agency/static/media/case.80141acd.svg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.614ba8c2.js",
     "static/js/2.5fd51c76.chunk.js",
-    "static/css/main.914e969b.chunk.css",
+    "static/css/main.1aab950b.chunk.css",
     "static/js/main.643fcaab.chunk.js"
   ]
 }
